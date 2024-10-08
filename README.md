@@ -1,4 +1,4 @@
-### XcodeAnyDebugRootless
+# XcodeAnyDebugRootless
 
 ![20241008172148](README.assets/20241008172148.jpg)
 
@@ -13,10 +13,25 @@
 - 采用无根设计,安全可靠
 - 无需配置直接使用
 
-## 要求
+## 安装
 
 - 已越狱的 iOS 设备 (使用 Dopamine)
 - 安装了 Xcode 的 Mac 电脑
+- 下载 Releases 的附件 deb文件 使用 `Sileo` 或者 `dpkg` 进行安装
+
+## 使用
+
+- 创建 Xcode 项目，选中越狱设备
+
+![image-20241008172928806](README.assets/image-20241008172928806.png)
+
+- 选择 `Debug` - `Attach to Process by PID or Name`
+
+![image-20241008173034932](README.assets/image-20241008173034932.png)
+
+- 输入要调试的可执行文件名称
+
+![image-20241008173144917](README.assets/image-20241008173144917.png)
 
 ## 注意事项
 
