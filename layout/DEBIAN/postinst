@@ -1,0 +1,8 @@
+#!/bin/bash
+
+set -e
+ldid -M -S/var/jb/usr/bin/debugserver_xcode.entitlements /var/jb/usr/bin/debugserver_xcode
+killall -9 lockdownd || true
+
+# killall -9 lockdownd >/dev/null 2>&1
+# exit 0

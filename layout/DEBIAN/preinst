@@ -1,0 +1,16 @@
+#!/bin/bash
+
+set -e
+
+if [ -f /var/jb/usr/bin/debugserver_xcode ]; then
+    rm -rf /var/jb/usr/bin/debugserver_xcode
+fi
+
+
+if [ -f /Developer/usr/bin/debugserver ]; then
+    cp /Developer/usr/bin/debugserver /var/jb/usr/bin/debugserver_xcode
+    echo "* Developer Disk Image mounted"
+else
+    echo "* Developer Disk Image not mounted, run xcode to connect and pair your device first." >&2
+    exit 1
+fi

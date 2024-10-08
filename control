@@ -1,0 +1,9 @@
+Package: com.yourcompany.xcodeanydebugrootless
+Name: XcodeAnyDebugRootless
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: debug any process with xcode (jailbroken required)
+Maintainer: Harlans
+Author: Harlans
+Section: Tweaks
+Depends: ldid, mobilesubstrate (>= 0.9.5000)

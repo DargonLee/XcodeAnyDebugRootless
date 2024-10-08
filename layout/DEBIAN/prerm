@@ -1,0 +1,5 @@
+#!/bin/bash
+
+rm -rf /var/jb/usr/bin/debugserver_xcode
+
+killall -9 lockdownd || true
