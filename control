@@ -1,6 +1,6 @@
 Package: com.yourcompany.xcodeanydebugrootless
 Name: XcodeAnyDebugRootless
-Version: 0.0.1
+Version: 0.1.0
 Architecture: iphoneos-arm
 Description: debug any process with xcode (jailbroken required)
 Maintainer: Harlans

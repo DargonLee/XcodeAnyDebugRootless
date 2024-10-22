@@ -1,6 +1,6 @@
 # XcodeAnyDebugRootless
 
-![20241008172148](README.assets/20241008172148.jpg)
+![20241008172148](README.assets/20241008172148.png)
 
 ## 简介
 
@@ -12,6 +12,7 @@
 - 完全兼容 Dopamine 越狱环境
 - 采用无根设计,安全可靠
 - 无需配置直接使用
+- 不影响正常的 Xcode 安装调试 App
 
 ## 安装
 
